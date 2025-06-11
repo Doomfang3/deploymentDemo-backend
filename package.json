@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsc && cp -r ./src/generated dist/generated",
-    "postinstall": "prisma generate --no-engine",
+    "postinstall": "prisma generate",
     "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts"
   },
